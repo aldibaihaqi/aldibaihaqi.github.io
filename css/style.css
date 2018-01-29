@@ -1,0 +1,69 @@
+/* YOUR CUSTOM STYLES */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Usage as a mixin */
+.element {
+  .center-block();
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #007aff;
+  border-color: #00abff;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-custom:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.btn-custom.disabled, .btn-custom:disabled {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-custom:active, .btn-custom.active,
+.show > .btn-custom.dropdown-toggle {
+  background-color: #0069d9;
+  background-image: none;
+  border-color: #0062cc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.social-wrapper {
+  margin-top:3rem;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  color: #686868;
+}
+.social {
+  display: inline-block;
+  margin: 0 0;
+  background: #fff;
+  font-size: auto;
+  color: #686868;
+}
+.social a {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: auto;
+  color: #686868;
+}
+
+.social a:hover{
+	color: #007aff;
+}
