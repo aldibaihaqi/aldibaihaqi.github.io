@@ -187,6 +187,9 @@ a:hover {
     .award .award-list li a{
       text-decoration:none;
     }
+    ul.award-list {
+      list-style-type: none;
+    }
     .award .award-list li b {
       padding-bottom: 5px;
       font-size: 1.1875em;
@@ -210,6 +213,10 @@ a:hover {
   .skills .skill-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
+
+    ul.skill-list {
+      list-style-type: none;
+    }
   .skills h1:before {
     position: absolute;
     left: -220px;
@@ -229,5 +236,3 @@ footer {
     footer .social li a:hover{
       border-bottom: 1px solid ##007aff !important;
     }
-
-ul { padding:0 } 
