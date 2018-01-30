@@ -125,7 +125,7 @@ a:hover {
   .section .container:after {
     position: absolute;
     content: url(img/separator.png);
-    left: 60px; }
+    left: 20px; }
   .section .container h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -152,6 +152,7 @@ a:hover {
 
 .work .work-list {
   margin-left: 0px;
+  padding-left:0px
   }
   .work .work-list li {
     list-style: none;
@@ -180,7 +181,8 @@ a:hover {
     color: #f4f4f4; }
 
 .award .award-list {
-  margin-left: 0px; }
+  margin-left: 0px;
+  padding-left:0px;}
   .award .award-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
@@ -209,7 +211,8 @@ a:hover {
 
 
 .skills .skill-list {
-  margin-left: 0px; }
+  margin-left: 0px;
+  padding-left: 0px;}
   .skills .skill-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
