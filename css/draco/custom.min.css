@@ -229,3 +229,5 @@ footer {
     footer .social li a:hover{
       border-bottom: 1px solid ##007aff !important;
     }
+
+ul { padding:0 } 
